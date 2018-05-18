@@ -3,27 +3,18 @@
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .container  {
     display: flex;
     align-items: flex-start;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     justify-content: space-around; 
+    justify-content: inherit;
     background: rgb(255, 255, 255);
-    border: 3px solid rgb(11, 37, 22);
-
-
 }
-.app-title {
-   font-size: 5em;
-   flex: 1 1 150px;
-
-
-}
-
 
 
 .title {
@@ -37,32 +28,31 @@
 }
 
 .contacttext {
-    margin-left: auto;
-    flex: 1;
-    width: 150px;
+    margin-left: 20px;
+    flex: 1 1 400px;
     height: 500px;
     color: rgb(11, 37, 22);
     text-align: left;
-    padding: 75px;
+    padding: 10px;
     background: rgb(255, 255, 255);
 }
 
 .skills {
-    flex: 1;
-    width: 300px;
-    height: 300px;
+    flex: 1 1 400px;
     color: rgb(11, 37, 22);
     text-align: left;
     background: rgb(255, 255, 255);
 }
 .profiletext {
-    border-left: 3px solid rgb(11, 37, 22); 
-    margin-left: auto;
     color: rgb(11, 37, 22);
-    flex: 2;
-    width: 150px;
+    width: 300px;
     height: 500px;
     text-align: left;
     background: rgb(255, 255, 255);
     padding: 75px;
+}
+
+h1{
+    border-left: 10px solid #73AD21;
+    padding: 10px;
 }

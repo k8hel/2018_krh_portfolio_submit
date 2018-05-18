@@ -1,21 +1,5 @@
 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  height: 100vw;
-  list-style: none;
-  background: rgb(11, 37, 22);
 
-}
-
-  .flex-item {
-  background: rgb(255, 255, 255);
-  width: 400px;
-  height: 300px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-}
 .h1{
   display: flex!important;
   margin: 0px!important;
