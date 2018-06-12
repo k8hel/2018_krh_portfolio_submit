@@ -37,7 +37,7 @@
 
 .profPic {
   background-image: unset;
-  max-width: auto;
+  max-width: 20vw;
   max-height: auto;
 
 
@@ -50,8 +50,10 @@
   text-align: left;
   position: relative;
   float: right;
-  
-  
-  
+  }
 
-}
+  .navigationbar{
+    border: 1px solid #73AD21;
+    display: flex;
+    flex-flow: row;
+  }
